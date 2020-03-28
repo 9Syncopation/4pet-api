@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "pets",
+  "info": {
+    "name": "pets"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "UsersPets": {
+      "type": "boolean"
+    },
+    "description": {
+      "type": "text"
+    },
+    "shelterDescription": {
+      "type": "text"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "gender": {
+      "type": "string"
+    }
+  }
+}
