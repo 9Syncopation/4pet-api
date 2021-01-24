@@ -11,9 +11,10 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "knex": "<0.20.0",
-    "pg": "^7.18.2",
-    "sqlite3": "latest",
+    "knex": "^0.21.16",
+    "node": "^15.4.0",
+    "pg": "^8.5.1",
+    "sqlite3": "^5.0.1",
     "strapi": "3.0.0-beta.19.3",
     "strapi-admin": "3.0.0-beta.19.3",
     "strapi-connector-bookshelf": "3.0.0-beta.19.3",
@@ -33,7 +34,7 @@
     "uuid": "cdca55f1-89e6-432b-96a7-8ec22414a3b6"
   },
   "engines": {
-    "node": ">=10.0.0",
+    "node": "12.16.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
