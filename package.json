@@ -28,7 +28,7 @@
     "stripe": "^8.38.0"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "A Strapi developer test"
   },
   "strapi": {
     "uuid": "cdca55f1-89e6-432b-96a7-8ec22414a3b6"
